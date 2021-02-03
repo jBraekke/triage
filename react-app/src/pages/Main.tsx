@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Main.css';
 import Goback from '../images/icons/refresh-outline.svg';
+import Siren from '../components/Siren/Siren';
 
 interface Question {
     type: string,
@@ -219,8 +220,16 @@ const Main = (): JSX.Element => {
                 </a>
             </div>
         }
+
+        if (firstLevel.answer === 4) {
+            return <div>
+                <h2>Ring 113!!</h2>
+                <Siren />
+            </div>
+        }
+
         else {
-            return <p>Takk, men her er det igjen logikk.</p>
+            return <p>Her er det dessverre ingen logikk.</p>
         }
     }
 
