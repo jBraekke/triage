@@ -1,0 +1,45 @@
+@font-face {
+  font-family    : 'source-sans-pro';
+  src            : url('./font/source-sans-pro-400-regular.d683bfb3.woff') format('woff');
+  font-style     : normal;
+  font-weight    : normal;
+  text-rendering : optimizeLegibility;
+}
+
+@font-face {
+  font-family    : 'source-sans-pro';
+  src            : url('./font/source-sans-pro-600-semibold.3d34f60e.woff') format('woff');
+  font-style     : normal;
+  font-weight    : bold;
+  text-rendering : optimizeLegibility;
+}
+
+@font-face {
+  font-family    : 'source-sans-pro';
+  src            : url('./font/source-sans-pro-700-bold.1e78dc5b.woff') format('woff');
+  font-style     : normal;
+  font-weight    : bolder;
+  text-rendering : optimizeLegibility;
+}
+
+body{
+  font-family: 'source-sans-pro', sans-serif;
+}
+
+.main-content{
+  padding-top: 20px;
+  min-height: calc(100vh - 187px);
+  background: #f5f3f3;
+}
+
+html{
+  background: #f5f3f3
+}
+
+.router{
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-top: 20px;
+  min-height: 500px;
+  padding: 0px 25px;
+}

@@ -1,0 +1,46 @@
+.header {
+    background: #f5f3f3;
+    padding: 0px 50px;
+}
+
+.navbar {
+    max-width: 1024px;
+    margin: 0 auto;
+    color: white;
+    height: 116px;
+    width: 100%;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    color: black;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.breadcrumb, .breadcrumb__anchor {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb {
+    border-top: 1px solid #d6d4d3;
+    border-bottom: 1px solid #d6d4d3;
+}
+
+.breadcrumb-wrapper {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.breadcrumb a {
+    font-weight: 600;
+    color: #000;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}

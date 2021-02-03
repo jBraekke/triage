@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "build",
+        "sourceMap": true
+    },
+    "files": [
+        "./node_modules/@types/mocha/index.d.ts",
+    ],
+    "include": [
+        "server/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
